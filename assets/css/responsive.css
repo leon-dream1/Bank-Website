@@ -1,0 +1,35 @@
+@media (max-width: 575px) { 
+    .main_login_area{
+        padding: 50px;
+        margin-top: 150px;
+      
+    }
+    .transition_main_area{
+        padding-top: 10px;
+    }
+    #transition_area{
+        padding-top: 50px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .transition_main_area{
+        padding-top: 10px;
+    }
+    #transition_area{
+        padding-top: 50px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+ }
+
+
+@media (min-width: 992px) and (max-width:1199px) { 
+
+ }
+
+@media (min-width: 1200px) {
+
+ }

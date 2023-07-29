@@ -1,0 +1,95 @@
+
+/*Common Css Part Start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color:#000000;
+    font-weight: normal;
+}
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/*Common Css Part End*/
+
+#login_area{
+    padding-top: 80px;
+}
+.main_login_area{
+    padding: 100px;
+    margin-top: 50px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 20px gray;
+}
+input{
+    margin: 20px 0;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 25px;
+}
+#msg p{
+    margin-left: 50%;
+    color: red;
+    font-size: 20px;
+}
+
+#transition_area{
+    display: none;
+    padding-top: 120px;
+}
+.deposit_area{
+    background-color: #6A5ACD;
+    margin: 0 20px;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+.withdraw_area{
+    background : #FFA07A;
+    margin: 0 20px;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+.balance_area{
+    background: #FFA500;
+    margin:0px 20px;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.transition_main_area{
+    padding-top: 100px;
+}
+
+.box{
+    padding:40px 80px 40px 30px;
+    margin-top: 50px;
+   border-radius: 20px;
+   box-shadow: 7px 10px 15px gray;
+}

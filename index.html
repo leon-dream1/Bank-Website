@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website</title>
+
+    <!--Css and Bootstrap link Attached-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Google Font link Attached -->
+    <link rel="stylesheet" href="assets/css/google_font.css">  
+
+     <!--Font Awesome link Attached -->
+    <link rel="stylesheet" href="assets/css/all.min.css">    
+
+</head>
+
+<body>
+
+    <div id="login_area">
+          <h1 class="text-center">Welcome to Bank Website</h1>
+       <div class="container">
+         <div class="row">
+            <div class="col-12">
+                 <div class="main_login_area">
+                     <h2>Login</h2>
+                     <input type="text" name="" id="username" class="form-control" placeholder="Enter your Username" required>
+                     <input type="password" name="" id="password" class="form-control" placeholder="Enter your password" required>
+                     <button class="btn btn-success" id="login_button">Enter</button>
+                 </div>
+            </div>
+         </div>
+       </div>
+    </div>
+
+    <div id="transition_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 pb-sm-0 pb-3">
+                    <div class="deposit_area">
+                        <h3 class="pb-2">Deposit</h3>
+                        <h1>$ <span id="deposit_current_amount">00</span></h1>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="withdraw_area">
+                        <h3 class="pb-2">Withdraw</h3>
+                        <h1>$<span id="withdraw_current_amount">00</span></h1>
+                    </div>
+                   
+                </div>
+                <div class="col-md-4 col-sm-6 mt-md-0 mt-4">
+                    <div class="balance_area">
+                        <h3 class="pb-2">Balance</h3>
+                        <h1>$<span id="current_balance">1000</span></h1>
+                    </div>
+                </div>
+            </div>
+  
+
+            <div class="transition_main_area">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <h2>Deposit</h2>
+                            <input type="text" name="" id="deposit_amount" class="form-control" placeholder="Enter $ you want to deposit">
+                            <button class="btn btn-success" id="deposit_button">Deposit</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-5 mb-sm-0">
+                        <div class="box">
+                            <h2>Withdraw</h2>
+                            <input type="text" name="" id="withdraw_amount" class="form-control" placeholder="Enter $ you want to withdraw">
+                            <button class="btn btn-success" id="withdraw_button">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
